@@ -80,6 +80,8 @@ This document explains what each part of the frontend/backend does and how to ru
 	 - Web: `http://localhost:3000`
 	 - API: `http://localhost:3001`
 
+Note: If you open `http://localhost:3001/` in the browser, the API’s root route returns `Hello World!` (a simple health check). The actual UI lives on `http://localhost:3000` (`/login`, `/signup`, `/dashboard`).
+
 ## Tests
 
 ### Backend
