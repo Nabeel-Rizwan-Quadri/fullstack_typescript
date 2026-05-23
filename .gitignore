@@ -1,0 +1,28 @@
+node_modules/
+.pnpm-store/
+.pnpm-debug.log*
+
+# Next.js
+.next/
+out/
+
+# Nest build output
+apps/api/dist/
+
+# Env files
+.env
+.env.*
+!**/.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Playwright
+playwright-report/
+playwright/.cache/

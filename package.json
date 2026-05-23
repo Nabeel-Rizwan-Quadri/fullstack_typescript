@@ -1,0 +1,20 @@
+{
+  "name": "fullstack-typescript",
+  "private": true,
+  "packageManager": "pnpm@11.2.2",
+  "scripts": {
+    "dev": "corepack pnpm -r --parallel dev",
+    "build": "corepack pnpm -r build",
+    "lint": "corepack pnpm -r lint",
+    "format": "prettier -w .",
+    "typecheck": "corepack pnpm -r typecheck",
+
+    "db:up": "docker compose up -d postgres postgres_test",
+    "db:down": "docker compose down -v",
+
+    "test": "corepack pnpm -r test && corepack pnpm -r test:e2e"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
